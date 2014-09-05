@@ -2,6 +2,7 @@ package com.epam;
 
 import com.epam.impl.DoubleCalculator;
 import com.epam.impl.FloatCalculator;
+import com.epam.impl.IntegerCalculator;
 
 public class Main {
 
@@ -10,5 +11,6 @@ public class Main {
         System.out.println("Divide 5/3:");
         System.out.println("Double calc:" + new DoubleCalculator().divide(5.0, 3.0));
         System.out.println("Float calc" + new FloatCalculator().divide(5.0, 3.0));
+        System.out.println("Int calc: " + new IntegerCalculator().add(67, 89));
     }
 }
